@@ -1,0 +1,12 @@
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\MiniChallengeJaun.exe
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\appsettings.Development.json
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\appsettings.json
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\data\data.json
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\MiniChallengeJaun.dll
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\MiniChallengeJaun.deps.json
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\MiniChallengeJaun.runtimeconfig.json
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\MiniChallengeJaun.pdb
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\Microsoft.OpenApi.dll
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rsgoo\Downloads\MiniChallengeJaun\MiniChallengeJaun\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

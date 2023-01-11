@@ -1,0 +1,19 @@
+{
+    "studentNames": [
+        {
+            "firstName": "Ken",
+            "lastName": "Martinez",
+            "email": "kmartinez@sjcoe.net"
+        },
+        {
+            "firstName": "Danny",
+            "lastName": "Tran",
+            "email": "dtran@sjcoe.net"
+        },
+        {
+            "firstName": "Scott",
+            "lastName": "Morenzone",
+            "email": "smorenzone@sjcoe.net"
+        }
+    ]
+}
