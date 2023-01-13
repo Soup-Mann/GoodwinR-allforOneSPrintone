@@ -371,6 +371,106 @@ public List<studentListModel> studentsList = new List<studentListModel>()
             return result;
         }
 
+         [HttpGet]
+        [Route("GetStudentByLastName/{studentLastName}")]
+        public studentListModel GetStudentByLastName(string studentLastName)
+        {
+            studentListModel result = new studentListModel(){
+                firstName = "N/A",
+                lastName  = "N/A",
+                slackName = "N/A",
+                email = "N/A",
+                hobbies = "N/A"
+            };
+
+            for(int i = 0; i < studentsList.Count; i++)
+            {
+                // condition to check the studentlist firstname to our variable firstname
+
+                if(studentsList[i].lastName == studentLastName)
+                {
+                    result = studentsList[i];
+                    break;
+                }
+                // else{
+                //     result.firstName = "N/A";
+                //     result.lastName = "N/A";
+                //     result.slackName = "N/A";
+                //     result.email = "N/A";
+                //     result.hobbies = "N/A";
+                // }
+            }
+
+            return result;
+        }
+
+
+         [HttpGet]
+        [Route("GetStudentBySlackName/{studentSlackName}")]
+        public studentListModel GetStudentBySlackName(string studentSlackName)
+        {
+            studentListModel result = new studentListModel(){
+                firstName = "N/A",
+                lastName  = "N/A",
+                slackName = "N/A",
+                email = "N/A",
+                hobbies = "N/A"
+            };
+
+            for(int i = 0; i < studentsList.Count; i++)
+            {
+                // condition to check the studentlist firstname to our variable firstname
+
+                if(studentsList[i].slackName == studentSlackName)
+                {
+                    result = studentsList[i];
+                    break;
+                }
+                // else{
+                //     result.firstName = "N/A";
+                //     result.lastName = "N/A";
+                //     result.slackName = "N/A";
+                //     result.email = "N/A";
+                //     result.hobbies = "N/A";
+                // }
+            }
+
+            return result;
+        }
+
+         [HttpGet]
+        [Route("GetStudentByEmail/{studentEmail}")]
+        public studentListModel GetStudentByEmail(string studentEmail)
+        {
+            studentListModel result = new studentListModel(){
+                firstName = "N/A",
+                lastName  = "N/A",
+                slackName = "N/A",
+                email = "N/A",
+                hobbies = "N/A"
+            };
+
+            for(int i = 0; i < studentsList.Count; i++)
+            {
+                // condition to check the studentlist firstname to our variable firstname
+
+                if(studentsList[i].lastName == studentEmail)
+                {
+                    result = studentsList[i];
+                    break;
+                }
+                // else{
+                //     result.firstName = "N/A";
+                //     result.lastName = "N/A";
+                //     result.slackName = "N/A";
+                //     result.email = "N/A";
+                //     result.hobbies = "N/A";
+                // }
+            }
+
+            return result;
+        }
+
 
 [HttpGet]
 [Route("{lame}")]

@@ -1,7 +1,44 @@
-body {
-    background-image: url() ;
+.bodycontainer{
+    background-image: url(../Assets/hailthesun.jpg) ;
+    height: 830px;
+    background-position: right;
+    background-position: top;
 }
 
 .superLarge {
     font-size: 5rem;
+}
+
+.indexText{
+color: white;
+}
+
+.titleBg{
+    background-image: url(../Assets/eldenring.jpg);
+    background-position: bottom;
+    padding-bottom: 200px;
+}
+.btnColTwo{
+justify-content: end;
+    padding-left: 400px;
+
+}
+
+.btnColOne{
+    padding-left: 250px;
+}
+
+.mainBut{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+margin-top: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 0;
+    
+}
+
+.navarBg{
+    background-color:#414858;
 }
