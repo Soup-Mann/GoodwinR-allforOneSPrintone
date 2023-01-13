@@ -6,7 +6,6 @@
 //     )
 // }
 
-
 let OddInput = document.getElementById("OddInput");
 let OddReturn = document.getElementById("OddReturn");
 let OddSubBtn = document.getElementById("OddSubBtn");
@@ -15,10 +14,10 @@ let savedInput = "";
 let OddUrl = "";
 
 OddSubBtn.addEventListener("click", function () {
-    OddApi(OddInput)
+    OddApi(OddInput);
 
-    })
-    
+    });
+    console.log("")
     function urlCall(url) {
         fetch(url).then(
             response => response.text()
@@ -27,15 +26,15 @@ OddSubBtn.addEventListener("click", function () {
                 OddReturn.textContent = data;
                 console.log(data);
             }
-        )
+        );
     }
 
 function OddApi(OddInput){
     
         savedInput = OddInput.value;
         OddUrl = "https://goodwinrallforone.azurewebsites.net/AllForOne/oddOrEven/" + savedInput;
-        urlCall(OddUrl)
-   
+        urlCall(OddUrl);
+
 }
 
 //withCors()
