@@ -1,11 +1,11 @@
-function withCors() {
-    fetch('https://goodwinrallforone.azurewebsites.net/AllForOne/addTwo/').then(
-        responce => responce.text()
-    ).then(
-        data => console.log(data)
-    )
-}
-withCors()
+// function withCors() {
+//     fetch('https://goodwinrallforone.azurewebsites.net/AllForOne/addTwo/').then(
+//         responce => responce.text()
+//     ).then(
+//         data => console.log(data)
+//     )
+// }
+// withCors()
 
 
 let numInput = document.getElementById("numInput");
@@ -16,13 +16,14 @@ let AddTwoBut = document.getElementById("AddTwoBut");
 let savedInput = "";
 let savedInputTwo = "";
 let AddTwoUrl = "";
+let response = "";
 
 AddTwoBut.addEventListener("click", function () {
   AddTwoApi(numInput, numTwoInput)
-    
-
+    AddTwoReturn.textContent = response
+     console.log("what")
     })
-    
+   
     function urlCall(url) {
         fetch(url).then(
             response => response.text()
@@ -34,10 +35,11 @@ AddTwoBut.addEventListener("click", function () {
         )
     }
 
-function AddTwoApi(numInput){
+function AddTwoApi(numInput, numTwoInput){
    
     
         savedInput = numInput.value;
+        savedInputTwo = numTwoInput.value;
         AddTwoUrl = "https://goodwinrallforone.azurewebsites.net/AllForOne/addTwo/" + savedInput + "/" + savedInputTwo;
         urlCall(AddTwoUrl)
    
@@ -50,6 +52,3 @@ function AddTwoApi(numInput){
 //         urlCall(AddTwoUrl)
    
 // }
-
-
-withCors()

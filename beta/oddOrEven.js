@@ -17,7 +17,7 @@ OddSubBtn.addEventListener("click", function () {
     OddApi(OddInput);
 
     });
-    console.log("")
+    console.log("hi")
     function urlCall(url) {
         fetch(url).then(
             response => response.text()
